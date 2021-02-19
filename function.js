@@ -5,3 +5,9 @@ function LikeButtonClicked()
 	document.getElementById("like_count").innerHTML = like_count;
 }
 
+var dislike_count =0;
+function DislikeButtonClicked()
+{
+        dislike_count += 1;
+	document.getElementById("dislike_count").innerHTML = dislike_count;
+}
